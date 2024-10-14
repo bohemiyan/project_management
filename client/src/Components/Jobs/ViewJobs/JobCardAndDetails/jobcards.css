@@ -1,0 +1,151 @@
+.card {
+    width: 100%;
+    height: 290px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    padding: 0 15px;
+    border: 1px solid rgba(0, 0, 0, .3);
+    border-radius: 10px !important;
+    transition: 1s ease-in-out;
+}
+
+.card h3:hover {
+    text-decoration: underline;
+}
+.card h3{
+    margin-top: 3px;
+    padding: 0px;
+}
+
+.card h4 {
+    font-size: 1rem ;
+    line-height: 1.38rem ;
+    margin: 10px;
+    margin-top: -10px;
+    display: flex;
+    color: #5e5858 ;
+    align-items: center ;
+    font-weight: 900;
+}
+
+
+.shrinkk {
+    width: 100%;
+    margin-bottom: 10px;
+    cursor: pointer;
+    padding: 0 15px;
+    border: 1px solid rgba(0, 0, 0, .3) !important;
+    border-radius: 10px;
+    height: 80px !important;
+    transition: 1s ease-in-out;
+}
+
+
+.rem {
+    height: 0;
+    font-size: 0;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1.5s ease-in-out;
+}
+
+.dis {
+    opacity: 1;
+    transition: opacity 1.5s ease-in-out;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top>p {
+    color: rgb(198, 107, 131);
+    font-weight: 500;
+    font-size: .75rem;
+    margin: 0;
+    padding: 0;
+}
+
+.dots {
+    position: relative;
+    margin-top: 15px;
+    height: 25px;
+    width: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.dots>span {
+    width: 4px;
+    height: 4px;
+    background-color: black;
+    border-radius: 50%;
+    border: 1px solid !important;
+    margin-bottom: 3px;
+    font-size: 35px;
+}
+
+.show {
+    display: inline;
+    width: 220px;
+    z-index: 5554545454545454545;
+    height: auto;
+}
+
+.show p {
+    margin: 0;
+    height: 40px;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.show p:hover {
+    background-color: lightblue;
+}
+
+.hidden {
+    display: none;
+}
+
+#expandd {
+    position: absolute;
+    top: 35px;
+    right: 0;
+    width: 150px;
+    background-color: white !important;
+}
+
+.rating {
+    color: black;
+    font-size: .8rem !important;
+    margin-bottom: 11px;
+    margin-top: 14px !important;
+    margin-left: 15px !important;
+}
+
+
+.postDate {
+    color: #6f6f6f;
+    font-weight: 400;
+    font-size: .8rem;
+}
+
+
+.undo {
+    display: flex;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 25px;
+    align-items: center !important;
+    justify-content: space-between;
+}
+
+.undo div:last-of-type {
+    color: hsl(212, 75%, 31%);
+}

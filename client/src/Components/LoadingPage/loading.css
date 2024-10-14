@@ -1,0 +1,40 @@
+/* src/LoadingWave.css */
+
+.loading-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f3f3f3;
+  }
+  
+  .dot {
+    width: 15px;
+    height: 15px;
+    margin: 0 5px;
+    background-color: #333;
+    border-radius: 50%;
+    animation: wave 1.2s infinite ease-in-out;
+  }
+  
+  .dot1 {
+    animation-delay: -0.45s;
+  }
+  
+  .dot2 {
+    animation-delay: -0.3s;
+  }
+  
+  .dot3 {
+    animation-delay: -0.15s;
+  }
+  
+  @keyframes wave {
+    0%, 80%, 100% {
+      transform: scale(0);
+    }
+    40% {
+      transform: scale(1);
+    }
+  }
+  

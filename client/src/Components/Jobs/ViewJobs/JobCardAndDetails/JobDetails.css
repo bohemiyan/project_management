@@ -1,0 +1,112 @@
+.jobDetails-container {
+    border: 1px solid rgba(0, 0, 0, .3);
+    width: 100%;
+    border-radius: 10px;
+}
+
+.jobHeadings {
+    width: 96%;
+    border-top-left-radius: 12px;
+    padding: 2%;
+    border-top-right-radius: 12px;
+    /* padding: 20px 0px 25px 15px; */
+    box-shadow: 0 5px 5px gainsboro;
+    background-color: #fff;
+}
+
+.titlee {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.titlee h3 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.cross {
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    fill: #2d2d2d;
+}
+
+.c {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.c h4 {
+    font-size: 1.2rem;
+    margin: 0;
+    color: #666;
+    display: flex;
+    align-items: center;
+}
+
+.rating {
+    margin-left: 10px;
+}
+
+.rating>span {
+    margin-right: 5px;
+}
+
+.apply {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.applyButton {
+    width: 150px;
+    height: 41px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #1976d2;
+    color: #fff;
+    text-decoration: none;
+    padding-bottom: 2px;
+}
+
+.applyButton:hover {
+    background-color: hsl(0, 0%, 76%);
+    color: #1976d2;
+}
+
+.jobDetails-container a {
+    text-decoration: none !important;
+    color: white;
+}
+
+.apply img {
+    margin-left: 16px;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.jobHeadings h4 {
+    font-size: 1rem;
+    color: #555;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.detailed {
+    height: 400px;
+    overflow-y: scroll;
+    padding: 0 15px;
+    font-size: 14px;
+}

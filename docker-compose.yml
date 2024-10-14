@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  my-app:
+    image: chiragmndl/my-app:latest
+    ports:
+      - "${HOST_PORT}:9696"
+    environment:
+      MONGODB_URI: "${MONGODB_URI}"
+      MOODLE_URL: "${MOODLE_URL}"
+      MOODLE_API_KEY: "${MOODLE_API_KEY}"
+      SENDGRID_API_KEY: "${SENDGRID_API_KEY}"
+      CLIENT_URL: "${CLIENT_URL}"
+    restart: unless-stopped

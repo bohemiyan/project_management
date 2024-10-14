@@ -1,0 +1,13 @@
+const Firebase_Constants = {
+  "type": "service_account",
+  "project_id": "sams-mobile-72d3f",
+  "private_key_id": "fafaabd770db3c0e71898da5d540c11c4b1dd6fb",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCmfPCGBLX+LrnO\nJzLfCBIj4oZhLzbZU/5ar4JTdxBiwNbP7LIKOZxCFh5WmZhpnqi08nZRLldEjZqc\nFw5F9nOpVNMmuGEpkGDkaob/ly3+zo6uPl3E96H1lKxvfy9bLWYgEHMAC1Gv7DT0\nVc3WjTH2O0d1OymRWjbesotjvqaSsyoGR179m3kaHysvPuTOAoviSTKxRJIeSNGB\n1xfX6sxBbmZglf77x/D48b0J2HcxWQXkRS4yGBT0+FfiYvfmfGxNglzRfp+ckLVc\n+ycDTJP7ZhpPES0vBvQSexTYJAxDvocacfmxWhMJKG0fj5ZmX33Rv6W3JuVBMTiI\nJgwa9dFHAgMBAAECggEAO44a7h32SkBFuBB+mpjFAHAyWMZubOymYqNA0AGZ63GH\nBibqA01bb6qA3MKh6jpWqC/Jkj2s+vlakraOpQlFk4+j3sh6/UbH2j2fIAPg8LLM\nCFmH6oMYvQQbcOECvC9vxk2MDbp+1Jr+0F53POYSNr460B1DP9sRILWmth4HcRcw\nLwxc1EnE2zpj7qaIukmpgmiIQpnlh3KCwv2bwLom5JyQK48yyPphJalv0MRNIUU4\nUBIMSch3WX5aInqoRnmCyrX4j7Xa9YdGpCZ/4US6lSWNE3fd3NXp3dae1zjiOMy4\n0JRQx/bB8+cB+PVYRbwbFtK5oSGnUJg9ImyWfnH63QKBgQDqZfJBBVujSrPDmNCQ\niXz94pulOGa9PO/0mORUcte646e3A3X/6cHEyPVCnGub46z59qlVUHdXJtXy0J5n\nBghrSE58t8CMX73Lj8u3L7jowubutB72S0g2ZcYMUOomsRvDzsKr/zExPCDe8eBo\n6ocN3H7VXhOkxCg5zdQunpWndQKBgQC11NF+6MOPXb2x7f4JN6MwHq3S42eP/nQf\nQlLKOhx9iSJJ6rVAOM3if+ybQBcQ2SRtJQSJnEMYvERqDPtTiG+UGmUuXH249XW/\noThpoclXdKnuHBtlJNzbEA5pFsKMdCdRZIPgbyITDDqMDg6PavLC+L59vZ3oVcWr\n6OP+7BB6SwKBgQCGbs/A8OS8w3RUQwmjS+dO6S+hU7bA4/kvTJzvvinyOu0OrsJ3\ncsa6KRNZD8M71hl4BzrY/lxjtJdSOsoOhkw/02mIaA7bs3F0FVWeC5W+kUHHN7Dm\nSwjwgfBTUfjpFfy5kZTe9m5tMXIcy5aMNa4dig+IKfuULRhxBpah4jwsnQKBgQCP\nnCtuEYbLB52YF0DppMDFc6WUBzk3OCAcxDRBNk5kM9gaCz7mHzc06hZEtATDsMyd\nS3xe90TjF2btX51sZzjA/2vkhvZhC7TZCgtVGou8AA9qWValtsycU/0dsPUtG1wm\nY73ol72Qz7q5/Swwx6Y+qVlCVG2QH5ZE5WaVY3rMKwKBgCpUCcy2AOeF8BJYcps0\nwpbnEsYsXFI9/O9YRb4RC9AvNGiZlOfMP0B8WSQH1cS4YeHY3NeOAZHJyix8h6RI\n5U0pIzRabt4GW6nPr8MtghFe1t2ydMAuttuWSioUcukgd4Bd0JMdmvsk0SssObOd\nPljFLWDTo4s5UmJFxGNUfow3\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-m8frp@sams-mobile-72d3f.iam.gserviceaccount.com",
+  "client_id": "102960206384103449783",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-m8frp%40sams-mobile-72d3f.iam.gserviceaccount.com"
+};
+module.exports= Firebase_Constants;
